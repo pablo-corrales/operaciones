@@ -4,17 +4,17 @@ package operaciones;
 public class Numero extends Expresion {
     private int numero;
 
-    public Numero(final int numero) {
+    public Numero(int numero) {
         this.numero = numero;
     }
 
     @Override
-    protected final int operar() {
+    protected int operar() {
         return numero;
     }
 
     @Override
-    protected final String toSring() {
+    protected String toSring() {
         return String.valueOf(numero);
         
     }
